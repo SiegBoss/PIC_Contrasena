@@ -4,7 +4,7 @@ Este proyecto utiliza un microcontrolador PIC16F877A, El usuario debe de ingresa
 la contraseña se puede cambiar por otra si el usuario desea, pero para poderla cmabiar debe de ingresar la contraseña anterior 
 
 ## Componentes
-- Microcontrolador: PIC PIC16F877A
+- Microcontrolador: PIC16F877A
 - Motor
 - Teclado Matricial
 - Pantalla LCD
@@ -34,7 +34,7 @@ This project uses a PIC16F877A microcontroller. The user must enter a password f
 The password can be changed to another if the user wishes, but in order to change it they must enter the previous password.
 
 ## Components
-- Microcontroller: PIC PIC16F877A
+- Microcontroller: PIC16F877A
 - Engine
 - Matrix keyboard
 - LCD screen
