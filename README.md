@@ -1,4 +1,4 @@
-# PIC16F877A Contraseña con Teclado Matricial y LCD
+# PIC16F877A Contraseña con Teclado Matricial
 
 Este proyecto utiliza un microcontrolador PIC16F877A, El usuario debe de ingresar una contraseña para que el motor se pueda mover lo que simularia abrir alguna puerta, 
 la contraseña se puede cambiar por otra si el usuario desea, pero para poderla cmabiar debe de ingresar la contraseña anterior 
@@ -18,7 +18,7 @@ la contraseña se puede cambiar por otra si el usuario desea, pero para poderla 
 - Lenguaje de programación: C
 
 ## Archivos del Proyecto
-- Código fuente: "contraseña.c"
+- Código fuente: "Password.c"
 - Archivo .hex para la programación del microcontrolador
 - Archivo .cof para depuración
 
@@ -28,7 +28,7 @@ la contraseña se puede cambiar por otra si el usuario desea, pero para poderla 
 
 -------------------------------
 
-# PIC16F877A Password with Matrix Keyboard and LCD
+# PIC16F877A Password with Matrix Keyboard+
 
 This project uses a PIC16F877A microcontroller. The user must enter a password for the motor to move, which would simulate opening a door.
 The password can be changed to another if the user wishes, but in order to change it they must enter the previous password.
@@ -48,7 +48,7 @@ The password can be changed to another if the user wishes, but in order to chang
 - Programming language: C
 
 ## Project files
-- Source code: "contraseña.c"
+- Source code: "Password.c"
 - .hex file for microcontroller programming
 - .cof file for debugging
 
@@ -59,5 +59,5 @@ The password can be changed to another if the user wishes, but in order to chang
 -------------------------------
 
 <p align="center" >
-<img width="800px" height="500px" style="margin: 10px" src="./Diagrama contraseña.png"> 
+<img width="800px" height="500px" style="margin: 10px" src="./Diagram_Password.png"> 
 </p>
