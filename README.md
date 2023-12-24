@@ -28,7 +28,7 @@ la contraseña se puede cambiar por otra si el usuario desea, pero para poderla 
 
 -------------------------------
 
-# PIC16F877A Password with Matrix Keyboard+
+# PIC16F877A Password with Matrix Keyboard
 
 This project uses a PIC16F877A microcontroller. The user must enter a password for the motor to move, which would simulate opening a door.
 The password can be changed to another if the user wishes, but in order to change it they must enter the previous password.
