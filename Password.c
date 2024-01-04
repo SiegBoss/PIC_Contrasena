@@ -113,11 +113,11 @@ char read_kb()
 
 //----------------------------------------------
 
+
 // Programa principal | Main program
 void main()
 {
     // Declarando los puertos de entrada y salida | Declaring the input and output ports
-    set_tris_B(0b11111111);
     set_tris_C(0b00000000);
     set_tris_D(0b00001000);
     // Inicializando el LCD | Initializing the LCD
@@ -126,7 +126,7 @@ void main()
     port_b_pullups(true);
 
     //Ciclo infinito | Infinite cycle
-    While(true)
+    while(true)
     {
         // Muestra msj en el LCD | Show msj in the LCD
         lcd_gotoxy(1, 1);
@@ -144,7 +144,7 @@ void main()
             i = 0;
 
             // Ciclo para ingresar 3 digitos | Cycle to enter 3 digits
-            While(i <= 2)
+            while(i <= 2)
             {
                 // Lectura del teclado | Reading of the keyboard
                 key = read_kb();
@@ -153,6 +153,7 @@ void main()
                 {
                     delay_ms(300);
 
+                    //----------------------------------------------
                     // Si se presiona la tecla C, se borra la contraseña | If the C key is pressed, the password is deleted
                     if (key == 'C')
                     {
@@ -167,7 +168,9 @@ void main()
 
                         break;
                     }
+                    //----------------------------------------------
 
+                    //----------------------------------------------
                     // Si se presiona la tecla =, se cambia la contraseña | If the = key is pressed, the password is changed
                     if (key == '=')
                     {
@@ -196,7 +199,7 @@ void main()
                         i = 0;
 
                         // Se ingresa la contraseña antigua | The old password is entered
-                        While(i <= 2)
+                        while(i <= 2)
                         {
                             // Lectura del teclado | Reading of the keyboard
                             key = read_kb();
@@ -232,7 +235,7 @@ void main()
                                     i = 0;
 
                                     // Se ingresa la nueva contraseña | The new password is entered
-                                    While(i <= 2)
+                                    while(i <= 2)
                                     {
                                         // Lectura del teclado | Reading of the keyboard
                                         key = read_kb();
@@ -291,12 +294,17 @@ void main()
                         }
                     }
 
+                    //----------------------------------------------
+
+                    //----------------------------------------------
                     password[i] = key;
 
                     lcd_gotoxy(i + 1, 2);
                     printf(lcd_putc, "%c           ", password[i]);
 
                     i++;
+
+                    //----------------------------------------------
                 }
             }
         }
